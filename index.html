@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <h3>Cadastro LGBTQiA+</h3>
+    <input id="email" type="text" name="email" placeholder="Seu e-mail...">
+    <input id="senha" type="password" name="senha" placeholder="Sua senha...">
+    <input type="submit" name="acao" volue="Enviar">
+</form>
+    <script>
+        var email = document.getElementById('email');
+        email.addEventListener('focus',()=>{
+            email.style.borderColor = '#9a68c4';
+        });
+        var email = document.getElementById('email');
+        email.addEventListener('blur',()=>{
+            email.style.borderColor = '#ccc';
+        });
+        var senha = document.getElementById('senha');
+        senha.addEventListener('focus',()=>{
+            senha.style.borderColor = '#9a68c4';
+        });
+        var senha = document.getElementById('senha');
+        senha.addEventListener('blur',()=>{
+            senha.style.borderColor = '#ccc';
+        });
+    </script>
+</body>
+</html>

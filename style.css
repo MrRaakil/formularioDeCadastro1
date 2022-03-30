@@ -1,0 +1,51 @@
+<style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+        body {
+            background-image: linear-gradient(45deg, #dfc1f8, #9a68c4); 
+            font-family: sans-serif;
+        }
+        form {
+            background-color: white;
+            max-width: 500px;
+            width: 70%;
+            padding: 20px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        form h3 {
+            text-align: center;
+            color: #9a68c4;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-transform: uppercase;
+        }
+        form input[type=text],
+        form input[type=password]{
+            width: 100%;
+            height: 45px;
+            border: 1px solid #ccc;
+            padding-left: 10px;
+            margin: 5px 0;
+        }
+        form input[type=submit]{
+            width: 100%;
+            height: 30px;
+            cursor: pointer;
+            background-color: #9a68c4;
+            color: #ffffff;
+            border: 0;
+            border-radius: 20px;
+            transition: 0.5s
+        }
+        form input[type=submit]:hover{
+            background-color: #9a68c4;
+        }
+
+        form input[type=password]:focus{
+            outline: 0;
+        }
+        form input[type=text]:focus{
+            outline: 0;
+        }
+    </style>
